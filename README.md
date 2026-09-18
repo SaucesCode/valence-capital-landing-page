@@ -1,4 +1,4 @@
-# VALENCE CAPITAL — Autonomous Corporate Treasury & Financial OS 💳
+# VALENCE CAPITAL — Autonomous Corporate Treasury & Financial OS
 
 An Awwwards-tier, $150k-agency-grade Fintech / Neobank landing page inspired by the engineering precision of **Mercury**, **Stripe**, and **Ramp**.
 
@@ -6,7 +6,7 @@ Designed for modern venture-backed startups and high-growth engineering teams ma
 
 ---
 
-## ✨ Key Features & Architecture
+## Key Features & Architecture
 
 - **Interactive 3D Titanium Corporate Card**:
   - Realistic 3D perspective tilt following mouse physics (`rotateX`, `rotateY`, dynamic specular glare).
