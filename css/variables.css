@@ -1,0 +1,76 @@
+/* ==========================================================================
+   VALENCE CAPITAL — DESIGN SYSTEM TOKENS
+   Modern Architectural Dark Theme (Mercury / Stripe / Ramp Inspired)
+   ========================================================================== */
+
+:root {
+  /* Surface & Canvas Color Tokens */
+  --bg-canvas: #08090b;
+  --bg-canvas-subtle: #0d0f14;
+  --bg-surface-0: #12141a;
+  --bg-surface-1: #171a22;
+  --bg-surface-2: #1e222d;
+  --bg-surface-3: #262c3a;
+  --bg-surface-glass: rgba(18, 20, 26, 0.75);
+  --bg-surface-glass-heavy: rgba(13, 15, 20, 0.92);
+
+  /* Metallic & Finish Tokens */
+  --finish-titanium-start: #232733;
+  --finish-titanium-end: #0e1015;
+  --finish-platinum-start: #d4d4d8;
+  --finish-platinum-end: #71717a;
+  --finish-tungsten-start: #1e293b;
+  --finish-tungsten-end: #0f172a;
+
+  /* Border & Hairline Tokens */
+  --border-hairline: rgba(255, 255, 255, 0.07);
+  --border-subtle: rgba(255, 255, 255, 0.12);
+  --border-strong: rgba(255, 255, 255, 0.20);
+  --border-active: rgba(255, 255, 255, 0.35);
+
+  /* Accent & Functional Colors */
+  --accent-primary: #ffffff;
+  --accent-emerald: #10b981;
+  --accent-emerald-glow: rgba(16, 185, 129, 0.15);
+  --accent-cyan: #38bdf8;
+  --accent-gold: #f59e0b;
+  --accent-danger: #f43f5e;
+
+  /* Typography Colors */
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --text-tertiary: #64748b;
+  --text-muted: #475569;
+  --text-inverted: #09090b;
+
+  /* Typography Stacks */
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'Space Grotesk', 'SF Mono', SFMono-Regular, ui-monospace, Menlo, monospace;
+
+  /* Double-Bezel Concentric Radii */
+  --radius-outer-xl: 32px;
+  --radius-inner-xl: 26px;
+  --radius-outer-lg: 24px;
+  --radius-inner-lg: 18px;
+  --radius-outer-md: 18px;
+  --radius-inner-md: 13px;
+  --radius-sm: 10px;
+  --radius-full: 9999px;
+
+  /* Spacing Scale */
+  --spacing-container: 1240px;
+  --spacing-section: clamp(80px, 10vw, 140px);
+
+  /* Precision Shadows */
+  --shadow-subtle: 0 4px 20px -2px rgba(0, 0, 0, 0.5);
+  --shadow-card: 0 20px 40px -15px rgba(0, 0, 0, 0.7);
+  --shadow-elevation: 0 30px 60px -20px rgba(0, 0, 0, 0.85);
+  --shadow-inner-rim: inset 0 1px 1px 0 rgba(255, 255, 255, 0.12);
+  --shadow-inner-dark: inset 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+
+  /* Spring Physics Transitions */
+  --transition-fast: 200ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-smooth: 400ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-spring: 700ms cubic-bezier(0.32, 0.72, 0, 1);
+  --transition-heavy: 900ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
