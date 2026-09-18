@@ -31,17 +31,19 @@ document.addEventListener('DOMContentLoaded', () => {
     revealElements.forEach(el => el.classList.add('active'));
   }
 
-  // 2. Floating Island Nav Scroll Effect
-  const navIsland = document.querySelector('.nav-island');
-  window.addEventListener('scroll', () => {
-    if (window.scrollY > 50) {
-      navIsland.style.background = 'rgba(13, 15, 20, 0.94)';
-      navIsland.style.borderColor = 'rgba(255, 255, 255, 0.16)';
-    } else {
-      navIsland.style.background = 'var(--bg-surface-glass)';
-      navIsland.style.borderColor = 'var(--border-subtle)';
-    }
-  }, { passive: true });
+  // 2. Architectural Header Scroll Effect
+  const siteHeader = document.querySelector('.site-header');
+  if (siteHeader) {
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 40) {
+        siteHeader.style.background = 'rgba(9, 10, 13, 0.95)';
+        siteHeader.style.borderColor = 'rgba(255, 255, 255, 0.14)';
+      } else {
+        siteHeader.style.background = 'var(--bg-surface-glass)';
+        siteHeader.style.borderColor = 'var(--border-hairline)';
+      }
+    }, { passive: true });
+  }
 
   // 3. Mobile Hamburger Drawer
   const mobileToggle = document.getElementById('mobileToggle');

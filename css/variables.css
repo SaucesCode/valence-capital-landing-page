@@ -1,37 +1,41 @@
 /* ==========================================================================
    VALENCE CAPITAL — DESIGN SYSTEM TOKENS
-   Modern Architectural Dark Theme (Mercury / Stripe / Ramp Inspired)
+   Executive Neobank & Sovereign Treasury Theme (Mercury / Stripe Press Inspired)
+   Distinct Editorial High-Finance Personality
    ========================================================================== */
 
 :root {
-  /* Surface & Canvas Color Tokens */
-  --bg-canvas: #08090b;
-  --bg-canvas-subtle: #0d0f14;
-  --bg-surface-0: #12141a;
-  --bg-surface-1: #171a22;
-  --bg-surface-2: #1e222d;
-  --bg-surface-3: #262c3a;
-  --bg-surface-glass: rgba(18, 20, 26, 0.75);
-  --bg-surface-glass-heavy: rgba(13, 15, 20, 0.92);
+  /* Surface & Canvas Color Tokens (Warm Deep Slate & Graphite) */
+  --bg-canvas: #090a0d;
+  --bg-canvas-subtle: #0e1015;
+  --bg-surface-0: #12151c;
+  --bg-surface-1: #161a23;
+  --bg-surface-2: #1c212c;
+  --bg-surface-3: #242a38;
+  --bg-surface-glass: rgba(14, 16, 21, 0.88);
+  --bg-surface-glass-heavy: rgba(9, 10, 13, 0.95);
 
   /* Metallic & Finish Tokens */
   --finish-titanium-start: #232733;
   --finish-titanium-end: #0e1015;
-  --finish-platinum-start: #d4d4d8;
+  --finish-platinum-start: #e4e4e7;
   --finish-platinum-end: #71717a;
   --finish-tungsten-start: #1e293b;
   --finish-tungsten-end: #0f172a;
+  --finish-champagne-gold: #d4b996;
 
   /* Border & Hairline Tokens */
-  --border-hairline: rgba(255, 255, 255, 0.07);
-  --border-subtle: rgba(255, 255, 255, 0.12);
-  --border-strong: rgba(255, 255, 255, 0.20);
-  --border-active: rgba(255, 255, 255, 0.35);
+  --border-hairline: rgba(255, 255, 255, 0.08);
+  --border-subtle: rgba(255, 255, 255, 0.14);
+  --border-strong: rgba(255, 255, 255, 0.22);
+  --border-active: rgba(255, 255, 255, 0.38);
 
   /* Accent & Functional Colors */
-  --accent-primary: #ffffff;
+  --accent-primary: #f8fafc;
+  --accent-champagne: #ede7de;
+  --accent-champagne-muted: #b8aba0;
   --accent-emerald: #10b981;
-  --accent-emerald-glow: rgba(16, 185, 129, 0.15);
+  --accent-emerald-glow: rgba(16, 185, 129, 0.18);
   --accent-cyan: #38bdf8;
   --accent-gold: #f59e0b;
   --accent-danger: #f43f5e;
@@ -41,36 +45,39 @@
   --text-secondary: #94a3b8;
   --text-tertiary: #64748b;
   --text-muted: #475569;
-  --text-inverted: #09090b;
+  --text-champagne: #ede7de;
+  --text-inverted: #090a0d;
 
-  /* Typography Stacks */
+  /* Distinct Typography Stacks */
+  --font-serif: 'Newsreader', Georgia, Cambria, serif;
   --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-mono: 'Space Grotesk', 'SF Mono', SFMono-Regular, ui-monospace, Menlo, monospace;
 
-  /* Double-Bezel Concentric Radii */
-  --radius-outer-xl: 32px;
-  --radius-inner-xl: 26px;
-  --radius-outer-lg: 24px;
-  --radius-inner-lg: 18px;
-  --radius-outer-md: 18px;
-  --radius-inner-md: 13px;
-  --radius-sm: 10px;
+  /* Concentric Architectural Radii (More Structured / Chamfered) */
+  --radius-outer-xl: 20px;
+  --radius-inner-xl: 14px;
+  --radius-outer-lg: 16px;
+  --radius-inner-lg: 10px;
+  --radius-outer-md: 12px;
+  --radius-inner-md: 8px;
+  --radius-sm: 6px;
   --radius-full: 9999px;
 
   /* Spacing Scale */
-  --spacing-container: 1240px;
-  --spacing-section: clamp(80px, 10vw, 140px);
+  --spacing-container: 1280px;
+  --spacing-section: clamp(70px, 9vw, 130px);
+  --header-height: 72px;
 
   /* Precision Shadows */
-  --shadow-subtle: 0 4px 20px -2px rgba(0, 0, 0, 0.5);
-  --shadow-card: 0 20px 40px -15px rgba(0, 0, 0, 0.7);
-  --shadow-elevation: 0 30px 60px -20px rgba(0, 0, 0, 0.85);
+  --shadow-subtle: 0 4px 20px -2px rgba(0, 0, 0, 0.55);
+  --shadow-card: 0 20px 40px -15px rgba(0, 0, 0, 0.75);
+  --shadow-elevation: 0 30px 60px -20px rgba(0, 0, 0, 0.9);
   --shadow-inner-rim: inset 0 1px 1px 0 rgba(255, 255, 255, 0.12);
-  --shadow-inner-dark: inset 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+  --shadow-inner-dark: inset 0 2px 4px 0 rgba(0, 0, 0, 0.45);
 
   /* Spring Physics Transitions */
-  --transition-fast: 200ms cubic-bezier(0.16, 1, 0.3, 1);
-  --transition-smooth: 400ms cubic-bezier(0.16, 1, 0.3, 1);
-  --transition-spring: 700ms cubic-bezier(0.32, 0.72, 0, 1);
-  --transition-heavy: 900ms cubic-bezier(0.2, 0.8, 0.2, 1);
+  --transition-fast: 180ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-smooth: 350ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-spring: 650ms cubic-bezier(0.32, 0.72, 0, 1);
+  --transition-heavy: 850ms cubic-bezier(0.2, 0.8, 0.2, 1);
 }
